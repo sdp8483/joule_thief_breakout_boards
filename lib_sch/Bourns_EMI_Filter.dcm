@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Bourns_Common_Mode_Inductor
+D EMI 2-inductor-filter
+K EMI filter
+$ENDCMP
+#
+#End Doc Library

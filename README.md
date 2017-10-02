@@ -1,1 +1,2 @@
-# joule_thief_breakout_boards
+# Joule Thief Breakout Boards for Breadboard Development
+
