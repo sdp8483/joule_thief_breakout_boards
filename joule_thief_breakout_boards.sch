@@ -379,4 +379,60 @@ Wire Wire Line
 	7200 4450 7200 4550
 Wire Wire Line
 	7200 4550 7500 4550
+$Comp
+L Q_NPN_BEC Q1
+U 1 1 59D6C9FE
+P 4100 5700
+F 0 "Q1" H 4300 5750 50  0000 L CNN
+F 1 "BC817-40" H 4300 5650 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4300 5800 50  0001 C CNN
+F 3 "" H 4100 5700 50  0001 C CNN
+F 4 "NONE" H 4100 5700 60  0001 C CNN "Manufacture"
+F 5 "NONE" H 4100 5700 60  0001 C CNN "Mfg Part Number"
+F 6 "NONE" H 4100 5700 60  0001 C CNN "Package"
+F 7 "NONE" H 4100 5700 60  0001 C CNN "Description"
+	1    4100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J8
+U 1 1 59D6CDE7
+P 3550 5700
+F 0 "J8" H 3550 5900 50  0000 C CNN
+F 1 "Conn_01x03" H 3550 5500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3550 5700 50  0001 C CNN
+F 3 "" H 3550 5700 50  0001 C CNN
+	1    3550 5700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5700 3900 5700
+Wire Wire Line
+	3750 5600 3800 5600
+Wire Wire Line
+	3800 5600 3800 5450
+Wire Wire Line
+	3800 5450 4200 5450
+Wire Wire Line
+	4200 5450 4200 5500
+Wire Wire Line
+	3750 5800 3800 5800
+Wire Wire Line
+	3800 5800 3800 5950
+Wire Wire Line
+	3800 5950 4200 5950
+Wire Wire Line
+	4200 5950 4200 5900
+Text Notes 3300 5400 0    60   ~ 0
+NPN Transistor Breakout
+Wire Notes Line
+	3300 5400 5100 5400
+Wire Notes Line
+	5100 5300 5100 6000
+Wire Notes Line
+	5100 6000 3300 6000
+Wire Notes Line
+	3300 6000 3300 5300
+Wire Notes Line
+	3300 5300 5100 5300
 $EndSCHEMATC
