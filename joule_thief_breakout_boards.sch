@@ -400,7 +400,7 @@ U 1 1 59D6CDE7
 P 3550 5700
 F 0 "J8" H 3550 5900 50  0000 C CNN
 F 1 "Conn_01x03" H 3550 5500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3550 5700 50  0001 C CNN
+F 2 "lib_fp:Etch_Pin_Header_Straight_1x03_Pitch2.54mm" H 3550 5700 50  0001 C CNN
 F 3 "" H 3550 5700 50  0001 C CNN
 	1    3550 5700
 	-1   0    0    -1  
