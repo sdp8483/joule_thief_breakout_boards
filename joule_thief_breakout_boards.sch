@@ -436,10 +436,10 @@ Wire Notes Line
 Wire Notes Line
 	3300 5300 5100 5300
 $Comp
-L Bourns_Common_Mode_Inductor FL?
+L Bourns_Common_Mode_Inductor FL3
 U 1 1 59E25E9F
 P 4200 3550
-F 0 "FL?" H 4200 3725 50  0000 C CNN
+F 0 "FL3" H 4200 3725 50  0000 C CNN
 F 1 "SRF3216-222Y" H 4200 3375 50  0000 C CNN
 F 2 "lib_fp:SRF3216_Bourns_CMI" V 4200 3590 50  0001 C CNN
 F 3 "" V 4200 3590 50  0000 C CNN
@@ -451,10 +451,10 @@ F 7 "Common Mode Chip Inductor" H 4200 3550 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J?
+L Conn_01x02 J10
 U 1 1 59E25EA5
 P 4850 3500
-F 0 "J?" H 4850 3600 50  0000 C CNN
+F 0 "J10" H 4850 3600 50  0000 C CNN
 F 1 "Conn_01x02" H 4850 3300 50  0000 C CNN
 F 2 "lib_fp:Etch_Pin_Header_Straight_1x02_Pitch2.54mm" H 4850 3500 50  0001 C CNN
 F 3 "" H 4850 3500 50  0001 C CNN
@@ -462,10 +462,10 @@ F 3 "" H 4850 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J?
+L Conn_01x02 J9
 U 1 1 59E25EAB
 P 3550 3500
-F 0 "J?" H 3550 3600 50  0000 C CNN
+F 0 "J9" H 3550 3600 50  0000 C CNN
 F 1 "Conn_01x02" H 3550 3300 50  0000 C CNN
 F 2 "lib_fp:Etch_Pin_Header_Straight_1x02_Pitch2.54mm" H 3550 3500 50  0001 C CNN
 F 3 "" H 3550 3500 50  0001 C CNN
