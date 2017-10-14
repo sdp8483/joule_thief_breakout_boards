@@ -34,8 +34,12 @@ The following components were idetified for investigation for not only the next 
 * [RUT2012FR100CS](https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RUT2012FR100CS/1276-6170-1-ND/3969142): Current shunt
 
 ## Testing and Development
-Assemble the joule thief circuit on a pcb with jumper wires. A reistor for the base of the NPN transistor is the only other component reqired. Adjust the resistance 
-value to change the current draw of the device. Test results maybe avalible in the repository or in a linked blog article at a later date when testing is complete.
+Test results are avalible in the testing directory of this repository as an xlsm file. This file was created using MS Excel 2007.
+
+Assemble the joule thief circuit on a pcb with jumper wires. A reistor for the base of the NPN transistor is the only other component reqired for the jouel thief curcuit. Adjust this resistance 
+value to change the current draw of the device. Two of the INA180A4IDBVT breakout boards with a 0.1ohm shut were used to monitor the input current and LED current of the curcuit. These current sensors are powerd by an external 
+power supply. A TEMT6000 light sensor was plased approximatly 25mm from the LED. To prevent external ambient light from impacting light measurements a paper tube was constructed with a black inside diameter and placed between the LED and light sensor.
+Five handheld multimeters were used to collect measurements. Their palcement and model is outlined in the xlsm file. An osiliscope was also used to observe transient signals, results were not captured.
 
 ## More
 That is all. If you have stumbled upon the repository and can offer any suggestions contact me through github. I used the pervous Multi LED Joule Thief as a 
