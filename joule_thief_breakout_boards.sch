@@ -1036,4 +1036,8 @@ Wire Notes Line
 	2500 5450 2500 2300
 Wire Notes Line
 	2500 2300 8300 2300
+Text Notes 4050 3050 0    60   ~ 0
+5V 100mA max from DI-1110 datalogger\n    Voltage is unregulated from USB\n    INA180 draws worst case 300uA\n    TEMT600 draws worst case 330uA\n    NCP1117 drop out is 0.8V at low current
+Text Notes 6600 5650 0    60   ~ 0
+TEMT600 Light Sensor Breakout from Sparkfun or similar.\nSensor is placed above a single LED with cover to prevent ambient light readings
 $EndSCHEMATC
