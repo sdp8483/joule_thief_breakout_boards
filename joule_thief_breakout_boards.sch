@@ -40,7 +40,7 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Breakout Boards For Joule Thief Development"
+Title "Joule Thief Development"
 Date "2017-10-01"
 Rev ""
 Comp "SD Productions"
