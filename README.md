@@ -37,9 +37,20 @@ The following components were idetified for investigation for not only the next 
 Test results are avalible in the testing directory of this repository as an xlsm file. This file was created using MS Excel 2007.
 
 Assemble the joule thief circuit on a pcb with jumper wires. A reistor for the base of the NPN transistor is the only other component reqired for the jouel thief curcuit. Adjust this resistance 
-value to change the current draw of the device. Two of the INA180A4IDBVT breakout boards with a 0.1ohm shut were used to monitor the input current and LED current of the curcuit. These current sensors are powerd by an external 
-power supply. A TEMT6000 light sensor was plased approximatly 25mm from the LED. To prevent external ambient light from impacting light measurements a paper tube was constructed with a black inside diameter and placed between the LED and light sensor.
-Five handheld multimeters were used to collect measurements. Their palcement and model is outlined in the xlsm file. An osiliscope was also used to observe transient signals, results were not captured.
+value to change the current draw of the device.
+
+The joule thief curcuit is powered by an adjustable lab power supply for testing, a DPS5015 was used. Input current was measurend using a Owon B41T+ that has an accuracy of +-(0.8% + 2 counts) in the mA range.
+Input voltage was measured after the current meter to remove burden voltage. This was measured using a Owon B41T+ that has an accuracy of +-(0.5% + 2 counts) on all DCV ranges.
+
+The INA180A4IDBVT breakout board with a 0.1ohm 1% shut was used to monitor the LED current. The current sensor was powered by an external 3.3V
+power supply. An AN8008 DMM was used to measure the output of this current sensor, the AN8008 has an accuracy of +-(0.5% + 3 counts) on all DCV ranges.
+
+A TEMT6000 light sensor was plased approximatly 25mm from the LED. To prevent external ambient light from impacting light measurements a paper tube was constructed with a black inside diameter and placed between the LED and light sensor.
+The output from the light sensor was measured using a BK Precision 2709B that has an accuracy of +-(0.5% + 2 counts) on all DCV ranges.
+
+Switching frequency was measured at the anode of the LED with repect to ground. An AN8008 DMM was used to measure the frequency, the AN8008 has an accuracy of +-(0.1% + 2 counts) on all frequency ranges.
+
+An ocillisope was used to observe signals but measurements were not recorded.
 
 ## More
 That is all. If you have stumbled upon the repository and can offer any suggestions contact me through github. I used the pervous Multi LED Joule Thief as a 
