@@ -892,7 +892,7 @@ U 1 1 59E3DF05
 P 5350 4500
 F 0 "J12" H 5350 4600 50  0000 C CNN
 F 1 "Current" H 5350 4300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 5350 4500 50  0001 C CNN
+F 2 "lib_fp:Etch_Pin_Header_Straight_1x02_Pitch2.54mm" H 5350 4500 50  0001 C CNN
 F 3 "" H 5350 4500 50  0001 C CNN
 F 4 "NONE" H 5350 4500 60  0001 C CNN "Manufacture"
 F 5 "NONE" H 5350 4500 60  0001 C CNN "Mfg Part Number"
@@ -926,7 +926,7 @@ U 1 1 59E3E5CE
 P 2700 3900
 F 0 "J11" H 2700 4000 50  0000 C CNN
 F 1 "Voltage" H 2700 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 2700 3900 50  0001 C CNN
+F 2 "lib_fp:Etch_Pin_Header_Straight_1x02_Pitch2.54mm" H 2700 3900 50  0001 C CNN
 F 3 "" H 2700 3900 50  0001 C CNN
 F 4 "NONE" H 2700 3900 60  0001 C CNN "Manufacture"
 F 5 "NONE" H 2700 3900 60  0001 C CNN "Mfg Part Number"
@@ -961,7 +961,7 @@ U 1 1 59E40DDF
 P 7350 5050
 F 0 "A1" H 7350 4850 60  0000 C CNN
 F 1 "TEMT600" H 7350 5250 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7350 5050 60  0001 C CNN
+F 2 "lib_fp:Etch_Pin_Header_Straight_1x03_Pitch2.54mm" H 7350 5050 60  0001 C CNN
 F 3 "" H 7350 5050 60  0001 C CNN
 	1    7350 5050
 	1    0    0    -1  
@@ -1002,7 +1002,7 @@ U 1 1 59E4154E
 P 8050 5050
 F 0 "J13" H 8050 5150 50  0000 C CNN
 F 1 "Light" H 8050 4850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 8050 5050 50  0001 C CNN
+F 2 "lib_fp:Etch_Pin_Header_Straight_1x02_Pitch2.54mm" H 8050 5050 50  0001 C CNN
 F 3 "" H 8050 5050 50  0001 C CNN
 F 4 "NONE" H 8050 5050 60  0001 C CNN "Manufacture"
 F 5 "NONE" H 8050 5050 60  0001 C CNN "Mfg Part Number"
@@ -1050,7 +1050,7 @@ U 1 1 59E367EB
 P 3500 2850
 F 0 "J14" H 3500 2950 50  0000 C CNN
 F 1 "PWR" H 3500 2650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 3500 2850 50  0001 C CNN
+F 2 "lib_fp:Etch_Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 2850 50  0001 C CNN
 F 3 "" H 3500 2850 50  0001 C CNN
 F 4 "NONE" H 3500 2850 60  0001 C CNN "Manufacture"
 F 5 "NONE" H 3500 2850 60  0001 C CNN "Mfg Part Number"
